@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T13:37:46 BDT" name="All Test Suite" finished-at="2021-12-22T13:37:46 BDT" duration-ms="39">
+    <groups>
+      <group name="OFT-103">
+        <method signature="SecondTestSuite.thirdTest()[pri:0, instance:test.SecondTestSuite@4450d156]" name="thirdTest" class="test.SecondTestSuite"/>
+      </group> <!-- OFT-103 -->
+      <group name="OFT-104">
+        <method signature="SecondTestSuite.fourthTest()[pri:0, instance:test.SecondTestSuite@4450d156]" name="fourthTest" class="test.SecondTestSuite"/>
+      </group> <!-- OFT-104 -->
+      <group name="OFT-100">
+        <method signature="FirstTestSuite.firstTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" name="firstTest" class="test.FirstTestSuite"/>
+      </group> <!-- OFT-100 -->
+      <group name="OFT-101">
+        <method signature="FirstTestSuite.secondTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" name="secondTest" class="test.FirstTestSuite"/>
+      </group> <!-- OFT-101 -->
+      <group name="Financial &amp; Claims">
+        <method signature="SecondTestSuite.fourthTest()[pri:0, instance:test.SecondTestSuite@4450d156]" name="fourthTest" class="test.SecondTestSuite"/>
+      </group> <!-- Financial & Claims -->
+      <group name="Readings Processing">
+        <method signature="FirstTestSuite.secondTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" name="secondTest" class="test.FirstTestSuite"/>
+      </group> <!-- Readings Processing -->
+      <group name="Order Processing">
+        <method signature="FirstTestSuite.firstTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" name="firstTest" class="test.FirstTestSuite"/>
+        <method signature="SecondTestSuite.thirdTest()[pri:0, instance:test.SecondTestSuite@4450d156]" name="thirdTest" class="test.SecondTestSuite"/>
+      </group> <!-- Order Processing -->
+    </groups>
+    <test started-at="2021-12-22T13:37:46 BDT" name="LambdaFunctionTest" finished-at="2021-12-22T13:37:46 BDT" duration-ms="39">
+      <class name="test.SecondTestSuite">
+        <test-method signature="fourthTest()[pri:0, instance:test.SecondTestSuite@4450d156]" started-at="2021-12-22T13:37:46 BDT" name="fourthTest" finished-at="2021-12-22T13:37:46 BDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method signature="thirdTest()[pri:0, instance:test.SecondTestSuite@4450d156]" started-at="2021-12-22T13:37:46 BDT" name="thirdTest" finished-at="2021-12-22T13:37:46 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- test.SecondTestSuite -->
+      <class name="test.FirstTestSuite">
+        <test-method signature="secondTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" started-at="2021-12-22T13:37:46 BDT" name="secondTest" finished-at="2021-12-22T13:37:46 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method signature="firstTest()[pri:0, instance:test.FirstTestSuite@51b7e5df]" started-at="2021-12-22T13:37:46 BDT" name="firstTest" finished-at="2021-12-22T13:37:46 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- test.FirstTestSuite -->
+    </test> <!-- LambdaFunctionTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
